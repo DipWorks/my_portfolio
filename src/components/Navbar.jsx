@@ -9,7 +9,7 @@ function Navbar(props) {
       {/* div is a container, margin x is auto
       is a flex container and  */}
       <div className="container mx-auto flex justify-between ">
-        <nav className="flex">
+        <nav className="lg:flex">
           {/* inline flex item, tracking widest is spacing between the letters*/}
           <NavLink
             to="/"
@@ -42,27 +42,27 @@ function Navbar(props) {
             About Me!
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-4">
+        <div className="lg:inline-flex py-4">
           <SocialIcon
-            className="mr-2"
+            className="m-1"
             target="_blank"
             fgColor="#fff"
             url="https://www.facebook.com/dipu.coolboy"
           />
           <SocialIcon
-            className="mr-2"
+            className="m-1"
             target="_blank"
             fgColor="#fff"
             url="https://twitter.com/Dipendr11755092"
           />
           <SocialIcon
-            className="mr-2"
+            className="m-1"
             target="_blank"
             fgColor="#fff"
             url="https://www.linkedin.com/in/dipendra-bhandari-382a061a5/"
           />
           <SocialIcon
-            className="mr-2"
+            className="m-1"
             target="_blank"
             fgColor="#fff"
             url="https://www.instagram.com/ibrahideep/"

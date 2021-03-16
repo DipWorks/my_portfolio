@@ -28,7 +28,7 @@ function Project(props) {
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">
           Welcome to my Projects page!
         </h2>
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projectData &&
             projectData.map((project, index) => (
               <article

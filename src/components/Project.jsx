@@ -30,8 +30,11 @@ function Project(props) {
         </h2>
         <section className="grid grid-cols-2 gap-8">
           {projectData &&
-            projectData.map((project) => (
-              <article className="relative rounded-lg shadow-xl bg-white p-16">
+            projectData.map((project, index) => (
+              <article
+                key={index}
+                className="relative rounded-lg shadow-xl bg-white p-16"
+              >
                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}

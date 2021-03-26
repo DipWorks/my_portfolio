@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
 
 function Navbar(props) {
+  function resetContactMe() {
+    props.setContactMe(false);
+  }
   return (
     // this class makes background color red with darkness level 600(100 to 900)
     <header className="bg-red-600">
@@ -18,7 +20,9 @@ function Navbar(props) {
             mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
             activeClassName="text-white"
           >
-            Dipendra
+            <a onClick={resetContactMe} href="/#">
+              Dipendra
+            </a>
           </NavLink>
           <NavLink
             to="/post"
@@ -42,32 +46,6 @@ function Navbar(props) {
             About Me!
           </NavLink>
         </nav>
-        <div className="lg:inline-flex py-4">
-          <SocialIcon
-            className="m-1"
-            target="_blank"
-            fgColor="#fff"
-            url="https://www.facebook.com/dipu.coolboy"
-          />
-          <SocialIcon
-            className="m-1"
-            target="_blank"
-            fgColor="#fff"
-            url="https://twitter.com/Dipendr11755092"
-          />
-          <SocialIcon
-            className="m-1"
-            target="_blank"
-            fgColor="#fff"
-            url="https://www.linkedin.com/in/dipendra-bhandari-382a061a5/"
-          />
-          <SocialIcon
-            className="m-1"
-            target="_blank"
-            fgColor="#fff"
-            url="https://www.instagram.com/ibrahideep/"
-          />
-        </div>
       </div>
     </header>
   );

@@ -29,7 +29,7 @@ function About(props) {
         className="absolute w-full h-full"
       />
       <div className="p-5 lg:p-10 container relative">
-        <section className="bg-yellow-700 bg-opacity-95 flex flex-col justify-center rounded-lg shadow-2xl lg:flex">
+        <section className="bg-yellow-700 bg-opacity-95 flex flex-col justify-center rounded-lg shadow-2xl lg:flex p-5">
           <div className="flex justify-center">
             <img
               src={urlFor(author.authorImage).url()}

@@ -35,7 +35,7 @@ function About(props) {
             className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
             alt={author.name}
           />
-          <div className="text-lg flex flex-col justify-center">
+          <div className="text-lg p-0 flex flex-col justify-center">
             <h1 className="cursive text-6xl text-green-300 mb-4">
               Hey there. I'm{" "}
               <span className="text-green-100">{author.name}</span>

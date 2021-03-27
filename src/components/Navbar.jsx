@@ -14,15 +14,14 @@ function Navbar(props) {
         <nav className="lg:flex">
           {/* inline flex item, tracking widest is spacing between the letters*/}
           <NavLink
+            onClick={resetContactMe}
             to="/"
             exact
             className="inflex-flex items-center py-6 px-3 
             mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
             activeClassName="text-white"
           >
-            <a onClick={resetContactMe} href="/#">
-              Dipendra
-            </a>
+            Dipendra
           </NavLink>
           <NavLink
             to="/post"

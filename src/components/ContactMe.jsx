@@ -49,7 +49,7 @@ function About(props) {
             </div>
             <div className="cursive text-2xl text-green-300">
               Mobile Number:{" "}
-              <span className="text-green-100">{author.mobileNumber} </span>
+              <span className="text-green-100">0{author.mobileNumber} </span>
             </div>
           </div>
         </section>

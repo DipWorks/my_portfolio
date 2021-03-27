@@ -22,7 +22,7 @@ function About(props) {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="relative mx-auto">
+    <main className="relative mx-auto min-w-screen min-h-screen">
       <img
         src={backgroundImage}
         alt="a laptop on a workdesk"
@@ -37,7 +37,7 @@ function About(props) {
               alt={author.name}
             />
           </div>
-          <div className="text-lg p-0 flex flex-col text-center">
+          <div className="text-lg flex flex-col text-center">
             <h1 className="cursive text-6xl text-green-300 mb-4">
               <span className="text-green-200">{author.name}</span>
             </h1>

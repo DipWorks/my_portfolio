@@ -28,7 +28,7 @@ function About(props) {
         alt="a laptop on a workdesk"
         className="absolute w-full h-full"
       />
-      <div className="lg:p-10 container relative">
+      <div className="p-5 lg:p-10 container relative">
         <section className="bg-yellow-700 bg-opacity-95 flex flex-col justify-center rounded-lg shadow-2xl lg:flex p-20">
           <div className="flex justify-center">
             <img

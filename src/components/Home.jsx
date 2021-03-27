@@ -4,7 +4,8 @@ import ContactMe from "./ContactMe";
 import Resume from "./Resume";
 
 function Home(props) {
-  function handleContactButton() {
+  function handleContactButton(event) {
+    event.preventDefault();
     props.setContactMe(true);
   }
 

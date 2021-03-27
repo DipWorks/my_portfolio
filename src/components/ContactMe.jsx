@@ -29,7 +29,7 @@ function About(props) {
         className="absolute w-full h-full"
       />
       <div className="p-5 lg:p-10 container relative">
-        <section className="bg-yellow-700 bg-opacity-95 flex flex-col justify-center rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-yellow-700 bg-opacity-95 flex flex-col justify-center rounded-lg shadow-2xl lg:flex">
           <div className="flex justify-center">
             <img
               src={urlFor(author.authorImage).url()}
@@ -37,7 +37,7 @@ function About(props) {
               alt={author.name}
             />
           </div>
-          <div className="text-lg flex flex-col text-center">
+          <div className="text-lg p-0 flex flex-col text-center">
             <h1 className="cursive text-6xl text-green-300 mb-4">
               <span className="text-green-200">{author.name}</span>
             </h1>
@@ -45,7 +45,7 @@ function About(props) {
             so can be used for block content */}
 
             <div className="cursive text-2xl text-green-300">
-              Email: <span className=" text-green-100">{author.email} </span>
+              Email: <span className=" text-green-100 ">{author.email} </span>
             </div>
             <div className="cursive text-2xl text-green-300">
               Mobile Number:{" "}

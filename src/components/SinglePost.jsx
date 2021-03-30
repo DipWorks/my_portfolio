@@ -37,7 +37,7 @@ function SinglePost(props) {
       <article className="container shadow-lg mx-auto bg-green rounded-lg">
         <header className="relative">
           <div className="absolute h-full w-full flex items-center justify-center">
-            <div className="bg-white bg-opacity-90 rounded p-8">
+            <div className="bg-white bg-opacity-90 rounded p-5 lg:p-8">
               <h1 className="cursive text-3xl lg:text-6xl mb-4">
                 {singlePost.title}
               </h1>
@@ -60,7 +60,7 @@ function SinglePost(props) {
             style={{ height: "400px" }}
           />
         </header>
-        <div className="bg-gray-200 p-10 prose lg:prose-xl max-w-full">
+        <div className="bg-gray-200 p-5 lg:p-10 prose lg:prose-xl max-w-full">
           <BlockContent
             blocks={singlePost.body}
             projectId="38yo8xqz"

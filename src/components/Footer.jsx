@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-red-500 block text-center">
       <div className="text-xl text-white pt-4 text-bold cursive">
-        Find me on Social Media
+        Find me on Social Media {"&"} GitHub
       </div>
       <div className="lg:inline-flex py-4">
         <SocialIcon
@@ -31,6 +31,12 @@ const Footer = () => {
           target="_blank"
           fgColor="#fff"
           url="https://www.instagram.com/ibrahideep/"
+        />
+        <SocialIcon
+          className="m-1"
+          target="_blank"
+          fgColor="#fff"
+          url="https://github.com/DipWorks"
         />
       </div>
     </footer>

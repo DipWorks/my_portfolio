@@ -23,14 +23,14 @@ function Project(props) {
   }, []);
 
   return (
-    <main className="bg-blue-300">
+    <main className="bg-blue-300 relative">
       <div className="container min-h-screen">
         <img
           src={backgroundImage}
           alt="coffee and laptop, programmer work desk"
           className="absolute object-cover w-full h-full border-8 border-indigo-300 rounded-3xl"
         />
-        <section className="absolute container mx-auto p-10">
+        <section className="relative container mx-auto p-10">
           <h1 className="text-5xl text-blue-500 flex justify-center cursive">
             My Projects
           </h1>

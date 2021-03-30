@@ -31,7 +31,7 @@ function Post(props) {
   }, []);
 
   return (
-    <main className="bg-blue-300">
+    <main className="bg-blue-300 relative">
       <img
         src={backgroundImage}
         alt="work desk, work hard message"

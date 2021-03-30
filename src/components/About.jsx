@@ -32,7 +32,7 @@ function About(props) {
         <section className="bg-yellow-600 bg-opacity-95 rounded-lg shadow-2xl lg:flex p-10">
           <img
             src={urlFor(author.authorImage).url()}
-            className="rounded lg:p-20 w-32 h-32 lg:w-64 lg:h-64 mr-8"
+            className="rounded lg:p-20 w-40 h-40 lg:w-64 lg:h-64 mr-8"
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">

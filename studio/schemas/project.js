@@ -33,7 +33,17 @@ export default {
       },
     },
     {
+      name: "frameworks",
+      title: "Frameworks/ Languages",
+      type: "text",
+    },
+    {
       name: "link",
+      type: "url",
+    },
+    {
+      name: "sourceCode",
+      tile: "Link to Source Code",
       type: "url",
     },
     {

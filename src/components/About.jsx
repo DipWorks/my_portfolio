@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
 import BlockContent from "@sanity/block-content-to-react";
-import backgroundImage from "../images/theme2.jpg";
+import backgroundImage from "../images/coffeeandlaptop.jpg";
 import { urlFor } from "./../urlFor";
 
 function About(props) {
@@ -22,11 +22,11 @@ function About(props) {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="relative">
+    <main className="bg-blue-300 relative">
       <img
         src={backgroundImage}
         alt="a laptop on a workdesk"
-        className="absolute w-full h-full"
+        className="absolute w-full h-full border-8 border-indigo-300 rounded-3xl"
       />
       <div className="p-5 lg:pt-20 container mx-auto relative">
         <section className="bg-green-700 bg-opacity-95 rounded-lg shadow-2xl lg:flex p-20">

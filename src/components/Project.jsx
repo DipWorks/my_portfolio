@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import backgroundImage from "../images/globeindesktop.jpg";
+import backgroundImage from "../images/theme.jpg";
 
 function Project(props) {
   const [projectData, setProjectData] = useState(null);

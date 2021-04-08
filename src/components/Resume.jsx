@@ -38,7 +38,6 @@ function Resume(props) {
           <ul className="text-xl text-red-500 font-bold leading-none lg:leading-snug">
             <li>React </li>
             <li>Django</li>
-            <li>NodeJs</li>
           </ul>
         </article>
       </section>

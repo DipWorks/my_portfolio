@@ -30,7 +30,7 @@ function Home(props) {
               </h1>
               <button
                 onClick={handleContactButton}
-                className=" text-3xl bg-yellow-500 bg-opacity-90 border-2 m-5 border-red-500 text-white cursive p-2"
+                className=" text-3xl bg-yellow-500 bg-opacity-90 rounded m-5 text-white cursive p-2"
               >
                 Contact me
               </button>

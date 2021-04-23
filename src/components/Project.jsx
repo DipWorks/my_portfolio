@@ -45,7 +45,7 @@ function Project(props) {
                   key={index}
                   className="relative rounded-lg shadow-xl bg-white bg-opacity-90 lg:p-8 p-5 mt-5 transition duration-500 ease-in-out hover:bg-gray-300 transform hover:translate-y-3 hover:scale-110 "
                 >
-                  <h3 className="text-blue-500 text-3xl font-bold mb-2 hover:text-red-500">
+                  <h3 className="text-3xl font-bold mb-2 hover:text-red-500">
                     <a
                       href={project.link}
                       alt={project.title}
@@ -57,7 +57,7 @@ function Project(props) {
                       {project.title}
                     </a>
                   </h3>
-                  <div className="text-pink-500 text-s space-x-2">
+                  <div className="text-s space-x-2">
                     <span>
                       <strong className="font-bold">Finished on</strong>:{" "}
                       {new Date(project.date).toLocaleDateString()}
@@ -69,7 +69,7 @@ function Project(props) {
                     <span></span>
                     <strong className="font-bold">Type</strong>:{" "}
                     {project.projectType}
-                    <p className="my-6 text-lg text-indigo-500 leading-relaxed">
+                    <p className="my-6 text-lg leading-relaxed">
                       {project.description}
                     </p>
                     <div className="flex justify-around">
@@ -77,7 +77,7 @@ function Project(props) {
                         href={project.link}
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-green-500 font-bold hover:no-underline hover:underline hover:text-blue-500 text-xl"
+                        className="font-bold hover:no-underline hover:underline hover:text-red-500 text-xl"
                       >
                         Project Demo{" "}
                         <span role="img" aria-label="right pointer">
@@ -88,7 +88,7 @@ function Project(props) {
                         href={project.sourceCode}
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-green-500 font-bold hover:no-underline hover:underline hover:text-blue-500 text-xl"
+                        className="font-bold hover:no-underline hover:underline hover:text-red-500 text-xl"
                       >
                         View Source Code{" "}
                         <span role="img" aria-label="right pointer">

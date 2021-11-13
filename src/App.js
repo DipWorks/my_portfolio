@@ -6,7 +6,7 @@ import Post from "./components/Post";
 import Footer from "./components/Footer";
 import SinglePost from "./components/SinglePost";
 import Project from "./components/Project";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"; 
 
 function App() {
   const [contactMe, setContactMe] = useState(false);

@@ -33,7 +33,7 @@ function SinglePost(props) {
   if (!singlePost) return <div>Loading...</div>;
 
   return (
-    <main className="bg-blue-200 min-h-screen p-5">
+    <main className="bg-gray-300 min-h-screen p-5">
       <article className="container shadow-lg mx-auto bg-green rounded-lg">
         <header className="relative">
           <div className="absolute h-full w-full flex items-center justify-center">

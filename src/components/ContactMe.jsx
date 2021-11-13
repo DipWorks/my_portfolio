@@ -22,14 +22,14 @@ function About(props) {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="relative bg-blue-300 min-w-screen min-h-screen">
+    <main className="relative bg-gray-600 min-w-screen min-h-screen">
       <img
         src={backgroundImage}
         alt="a laptop on a workdesk"
-        className="absolute object-cover w-full h-full border-8 border-indigo-300 rounded-3xl "
+        className="absolute object-cover w-full h-full border-8 border-gray-500 rounded-3xl "
       />
       <div className="p-5 lg:p-10 container relative">
-        <section className="bg-yellow-600 bg-opacity-90 flex flex-col justify-center rounded-lg shadow-2xl lg:flex p-5">
+        <section className="bg-gray-600 bg-opacity-75 flex flex-col justify-center rounded-lg shadow-2xl lg:flex p-5">
           <div className="flex justify-center">
             <img
               src={urlFor(author.authorImage).url()}
@@ -38,7 +38,7 @@ function About(props) {
             />
           </div>
           <div className="text-lg flex flex-col text-center">
-            <h1 className="cursive text-6xl text-green-300 mb-4">
+            <h1 className="cursive text-6xl text-white mb-4">
               <span className="text-green-300">{author.name}</span>
             </h1>
             {/* prose class is made for responsive reading 

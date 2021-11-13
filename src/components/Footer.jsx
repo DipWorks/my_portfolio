@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
-    <footer className="bg-red-500 block text-center">
+    <footer className="bg-gray-600 block text-center">
       <div className="text-xl text-white pt-4 text-bold cursive">
         Find me on Social Media {"&"} GitHub
       </div>

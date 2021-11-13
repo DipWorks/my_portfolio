@@ -22,14 +22,14 @@ function About(props) {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="bg-blue-300 min-w-screen min-h-screen relative">
+    <main className="bg-gray-600 min-w-screen min-h-screen relative">
       <img
         src={backgroundImage}
         alt="a laptop on a workdesk"
-        className="absolute w-full h-full border-8 border-indigo-300 rounded-3xl"
+        className="absolute w-full h-full border-8 border-gray-500 rounded-3xl"
       />
       <div className="p-5 lg:pt-20 container mx-auto relative">
-        <section className="bg-yellow-600 bg-opacity-95 rounded-lg shadow-2xl lg:flex p-10">
+        <section className="bg-gray-500 bg-opacity-95 rounded-lg shadow-2xl lg:flex p-10">
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded w-40 h-40 lg:w-64 lg:h-64 mr-8"

@@ -7,14 +7,14 @@ function Resume(props) {
       <img
         src={backgroundImage}
         alt="work desk, work hard message"
-        className="absolute object-cover w-full h-full border-8 border-indigo-300 rounded-3xl"
+        className="absolute opacity-90 object-cover w-full h-full border-8 border-gray-500 rounded-3xl"
       />
-      <section className="relative flex  justify-around flex-col gap-10 lg:flex-row pt-12 lg:pt-64 px-8 object-contain">
+      <section className="relative flex  justify-around flex-col gap-10 lg:flex-row pt-5 lg:pt-12 px-8 object-contain">
         <article className="flex-initial">
-          <h1 className="text-6xl text-blue-600 font-bold cursive leading-none lg: leading-snug">
+          <h1 className="text-6xl text-gray-500 font-bold cursive leading-none lg: leading-snug">
             Languages
           </h1>
-          <ul className="text-xl text-red-500 font-bold leading-none lg:leading-snug">
+          <ul className="text-xl text-gray-600 font-bold leading-none lg:leading-snug">
             <li>Java </li>
             <li>JavaScript</li>
             <li>HTML </li>
@@ -23,19 +23,19 @@ function Resume(props) {
           </ul>
         </article>
         <article className="flex-initial">
-          <h1 className="text-6xl text-blue-600 font-bold cursive leading-none lg: leading-snug">
+          <h1 className="text-6xl text-gray-500 font-bold cursive leading-none lg: leading-snug">
             Qualifications
           </h1>
-          <ul className="text-xl text-red-500 font-bold leading-none lg:leading-snug">
+          <ul className="text-xl text-gray-600 font-bold leading-none lg:leading-snug">
             <li>Master of Information Techonology </li>
             <li>Mastering React</li>
           </ul>
         </article>
         <article className="flex-initial">
-          <h1 className="text-6xl text-blue-600 font-bold cursive leading-none lg: leading-snug">
+          <h1 className="text-6xl text-gray-500 font-bold cursive leading-none lg: leading-snug">
             Frameworks
           </h1>
-          <ul className="text-xl text-red-500 font-bold leading-none lg:leading-snug">
+          <ul className="text-xl text-gray-600 font-bold leading-none lg:leading-snug">
             <li>React </li>
             <li>Django</li>
           </ul>

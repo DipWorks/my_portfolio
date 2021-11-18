@@ -26,6 +26,7 @@ export default {
       options: {
         list: [
           { value: "personal", title: "personal" },
+          { value: "workplace", title: "workplace" },
           { value: "client", title: "Client" },
           { value: "uni", title: "Uni" },
           { value: "onlineCourse", title: "Online course" },

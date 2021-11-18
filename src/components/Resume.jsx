@@ -19,7 +19,6 @@ function Resume(props) {
             <li>JavaScript</li>
             <li>HTML </li>
             <li>CSS </li>
-            <li>Python </li>
           </ul>
         </article>
         <article className="flex-initial">
@@ -27,8 +26,15 @@ function Resume(props) {
             Qualifications
           </h1>
           <ul className="text-xl text-gray-600 font-bold leading-none lg:leading-snug">
-            <li>Master of Information Techonology </li>
-            <li>Mastering React</li>
+            <li>
+              Master of Information Techonology <br />
+              (Major: Software Design and Development){" "}
+            </li>
+            <br />
+            <li>
+              Bachelors in Electronics and Communication <br />
+              Engineering
+            </li>
           </ul>
         </article>
         <article className="flex-initial">
@@ -36,8 +42,9 @@ function Resume(props) {
             Frameworks
           </h1>
           <ul className="text-xl text-gray-600 font-bold leading-none lg:leading-snug">
-            <li>React </li>
-            <li>Django</li>
+            <li>Spring Boot </li>
+            <li>React</li>
+            <li>Node.js</li>
           </ul>
         </article>
       </section>
